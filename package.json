@@ -1,0 +1,23 @@
+{
+  "name": "scrapingbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@extractus/article-extractor": "^8.0.7",
+    "axios": "1.6.8",
+    "cheerio": "1.0.0-rc.12",
+    "dotenv": "16.4.5",
+    "express": "^4.19.2",
+    "puppeteer": "^22.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
